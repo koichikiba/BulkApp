@@ -4,8 +4,6 @@
 //
 //  Created by user on 2022/11/13.
 //
-import SwiftyJSON
-
 
 import UIKit
 
@@ -56,19 +54,6 @@ class LoginViewController: UIViewController {
                 print(err)
             }
         }
-        
-//                AF.request(
-//                    url,
-//                    method: .post,
-//                    parameters: parameters
-//                ).response(completionHandler: { response in
-//                    switch response.result {
-//                    case .success(let value):
-//                        print("RESPONSE:", JSON(value))
-//                    case .failure(let err):
-//                        print(err)
-//                    }
-//                })
     }
     
     

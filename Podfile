@@ -9,5 +9,4 @@ target 'BulkApp' do
 pod 'Alamofire'
 pod 'KeychainAccess'
 pod 'Kingfisher'
-pod 'SwiftyJSON'
 end
